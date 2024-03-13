@@ -8,7 +8,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -5;
+  /* z-index: -5; */
 }
 .colorDIv {
   width: 100%;
@@ -21,7 +21,6 @@
 .heroSection {
   width: 100%;
   backdrop-filter: blur(100px);
-  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,4 +67,14 @@
   color: var(--Navy);
   font-size: 2.1rem;
   line-height: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .heroTextandImg {
+    max-width: 80%;
+  }
+  .helloWithImage {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
