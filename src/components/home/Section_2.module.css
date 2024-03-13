@@ -1,5 +1,5 @@
 .section2 {
-  padding: 2rem 2rem;
+  padding: 3rem;
   backdrop-filter: blur(100px);
   display: flex;
   flex-direction: column;
@@ -8,10 +8,41 @@
   gap: 3rem;
 }
 .section2 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--Navy);
 }
-.section2 div {
-  display: flex;
-  gap: 1.2rem;
+.image {
+  object-fit: contain;
+  width: 170px;
+  height: 170px;
+  border-radius: 5px;
+  box-shadow: 5px 2px 50px var(--Dusk-Blue);
+  padding: 0.5rem;
+  /* border: 1px solid red; */
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section2 h1 {
+    font-size: 3rem;
+  }
+  .image {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section2 {
+    padding: 2rem;
+  }
+  .image {
+    width: 100px;
+    height: 100px;
+      box-shadow: 10px 10px 30px var(--Dusk-Blue);
+  }
 }
