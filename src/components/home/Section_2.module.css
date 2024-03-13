@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 768px) {
   .section2 h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   .image {
     width: 120px;
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 600px) {
   .section2 {
-    padding: 2rem;
+    padding: 1.5rem;
   }
   .image {
     width: 100px;
