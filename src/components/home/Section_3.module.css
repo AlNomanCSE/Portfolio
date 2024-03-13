@@ -130,10 +130,16 @@
     width: 500px;
     align-items: center;
   }
+  .image {
+    box-shadow: 10px 10px 10px darkgray;
+  }
+
   .texts {
     position: absolute;
-    left: 100px;
-    bottom: -250px;
+    left: 165px;
+    bottom: -260px;
+    background-color: #fff;
+    padding: 0.5rem;
   }
   .circle {
     height: 30px;
