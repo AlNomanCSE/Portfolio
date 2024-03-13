@@ -109,7 +109,33 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .section3 h1 {
+    font-size: 1.5rem;
+  }
   .cardsDiv {
     grid-template-columns: 1fr;
+    gap: 10rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section3 h1 {
+    font-size: 1.5rem;
+  }
+  .cardsDiv {
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    gap: 25rem;
+  }
+  .colordiv {
+    width: 500px;
+    align-items: center;
+  }
+  .texts {
+    position: absolute;
+    left: 100px;
+    bottom: -250px;
+  }
+  .circle {
+    height: 30px;
   }
 }
