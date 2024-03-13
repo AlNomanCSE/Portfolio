@@ -1,6 +1,6 @@
 .section2 {
   padding: 3rem;
-  backdrop-filter: blur(100px);
+  backdrop-filter: blur(1000px);
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -1,0 +1,115 @@
+.section3 {
+  padding: 5rem 2rem;
+  width: 100%;
+}
+.section3 h1 {
+  font-size: 4rem;
+  color: var(--Navy);
+  text-align: center;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  margin-bottom: 7rem;
+}
+.cardsDiv {
+  /* background-color: black; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15rem 1rem;
+  justify-items: center;
+}
+
+.colordiv {
+  position: relative;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.colordivs_1 {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#00ac4b 70%, #fff);
+  filter: blur(100px);
+}
+.colordivs_2 {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#1a1717 70%, #fff);
+  filter: blur(100px);
+}
+.colordivs_3 {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#00af8c 70%, #fff);
+  filter: blur(100px);
+}
+.colordivs_4 {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#3b3ef6 70%, #fff);
+  filter: blur(100px);
+}
+.colordivs_5 {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#1c7be1 70%, #fff);
+  filter: blur(100px);
+}
+.colordivs_6 {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#055155 70%, #fff);
+  filter: blur(100px);
+}
+.colordivs_7 {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#e94b3c 70%, #fff);
+  filter: blur(100px);
+}
+.colordivs_8 {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#dcac1d 70%, #fff);
+  filter: blur(100px);
+}
+.image {
+  position: absolute;
+  width: 70%;
+  height: 300px;
+  left: 0;
+  top: -100px;
+  object-fit: contain;
+  /* box-shadow: 5px 5px 20px white; */
+  /* border: 1px dotted var(--Half-Baked); */
+  border-radius: 5px;
+}
+
+.texts h2 {
+  font-size: 1rem;
+  color: var(--Dusk-Blue);
+}
+.texts p {
+  color: dimgray;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  line-height: 1.5;
+}
+
+.circle {
+  width: 30px;
+  height: 25px;
+  padding: 0.2rem;
+  font-size: 1rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid dimgray;
+}
+
+@media screen and (max-width: 1200px) {
+  .cardsDiv {
+    grid-template-columns: 1fr;
+  }
+}
