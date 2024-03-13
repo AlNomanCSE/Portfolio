@@ -1,0 +1,71 @@
+.section1 {
+  position: relative;
+}
+
+.colorDIvMain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -5;
+}
+.colorDIv {
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient(rgb(54, 144, 187), white 100%);
+  filter: blur(100px);
+  /* backdrop-filter: blur(100px); */
+  /* -webkit-backdrop-filter: blur(100px); */
+}
+.heroSection {
+  width: 100%;
+  backdrop-filter: blur(100px);
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroTextandImg {
+  height: 90vh;
+  display: flex;
+  max-width: 700px;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+  gap: 1rem;
+}
+.image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 4px solid var(--Iceberg);
+}
+.helloWithImage {
+  align-items: end;
+  gap: 2rem;
+  display: flex;
+}
+.helloWithImage h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--Navy);
+}
+.helloWithImage > h1 > span {
+  font-weight: 900;
+  color: var(--Iceberg);
+}
+.heroTextandImg p {
+  width: 94%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--Iceberg);
+}
+.heroTextandImg > p > span {
+  color: var(--Navy);
+  font-size: 2.1rem;
+  line-height: 1;
+}
