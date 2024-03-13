@@ -1,0 +1,17 @@
+.section2 {
+  padding: 2rem 2rem;
+  backdrop-filter: blur(100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.section2 h1 {
+  font-size: 3rem;
+  color: var(--Navy);
+}
+.section2 div {
+  display: flex;
+  gap: 1.2rem;
+}
