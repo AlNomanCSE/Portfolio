@@ -43,6 +43,9 @@
   .image {
     width: 100px;
     height: 100px;
-      box-shadow: 10px 10px 30px var(--Dusk-Blue);
+    box-shadow: 10px 10px 30px var(--Dusk-Blue);
+  }
+  .images {
+    gap: 1rem;
   }
 }
