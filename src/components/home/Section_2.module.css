@@ -18,6 +18,7 @@
   border-radius: 5px;
   box-shadow: 5px 2px 50px var(--Dusk-Blue);
   padding: 0.5rem;
+  overflow: hidden;
   /* border: 1px solid red; */
 }
 .images {
@@ -33,6 +34,9 @@
   .image {
     width: 120px;
     height: 120px;
+  }
+  .images {
+    gap: 2rem;
   }
 }
 
