@@ -146,3 +146,15 @@
     height: 30px;
   }
 }
+
+@media screen and (max-width: 600px) {
+
+  .image {
+    width: 320px;
+    box-shadow: 10px 10px 10px darkgray;
+  }
+.texts{
+  left: 135px;
+}
+
+}
