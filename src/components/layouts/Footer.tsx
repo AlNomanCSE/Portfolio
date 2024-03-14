@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { Cookie, Zeyada } from "next/font/google";
-import { FaFacebook } from "react-icons/fa";
+
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";

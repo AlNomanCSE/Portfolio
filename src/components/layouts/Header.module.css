@@ -1,7 +1,16 @@
 .header {
-  padding: 2rem 4rem;
-  /* z-index: ; */
+  width: 100%;
+  position: fixed;
+  padding: 1.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid var(--Half-Baked);
+  z-index: 5;
+  background-color: transparent;
+
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
 }
 .header h2 {
   font-size: 2.5rem;
@@ -17,7 +26,26 @@
   letter-spacing: 1px;
   color: var(--Dusk-Blue);
 }
-
+.header > button {
+  border: none;
+  width: 120px;
+  height: 40px;
+  background-color: var(--Navy);
+  color: var(--Iceberg);
+  border-radius: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.socialMediaLink {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.link {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
 @media screen and (max-width: 992px) {
   .header {
     padding: 2rem 3rem;
@@ -33,10 +61,27 @@
   .header h2 {
     font-size: 1.8rem;
   }
+  .link {
+    gap: 0.3rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .header {
     padding: 1.5rem;
+  }
+  .socialMediaLink {
+    gap: 0.5rem;
+  }
+  .link {
+    gap: 0.1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .socialMediaLink {
+    gap: 0.5rem;
+  }
+  .link {
+    gap: 0.1rem;
   }
 }
