@@ -5,6 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import Link from "next/link";
 const zeyada = Zeyada({ subsets: ["latin"], weight: ["400"] });
 const cookie = Cookie({ subsets: ["latin"], weight: ["400"] });
 
@@ -19,9 +20,15 @@ const Footer = () => {
           </h1>
         </header>
         <div className={styles.socialMediaLink}>
-          <FaLinkedin />
-          <FaGithub />
-          <FaWhatsapp />
+          <Link href="https://www.linkedin.com/in/abdullah-al-noman-4989222b3/">
+            <FaLinkedin />
+          </Link>
+          <Link href="https://github.com/AlNomanCSE">
+            <FaGithub />
+          </Link>
+          <Link href="https://api.whatsapp.com/send?phone=8801883217001">
+            <FaWhatsapp />
+          </Link>
         </div>
         <h4>
           &copy;<span> Copyright 2024</span>
