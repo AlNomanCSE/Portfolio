@@ -8,6 +8,7 @@
   width: 100%;
   max-width: 1400px;
   border: 1px solid var(--Half-Baked);
+  background-color: var(--Iceberg);
 }
 .header {
   padding-top: 2rem;
