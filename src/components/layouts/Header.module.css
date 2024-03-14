@@ -37,6 +37,7 @@
   cursor: pointer;
 }
 .socialMediaLink {
+  color: var(--Dusk-Blue);
   display: flex;
   gap: 2rem;
   align-items: center;
