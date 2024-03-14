@@ -36,6 +36,13 @@
   font-size: 1.5rem;
   color: var(--Dusk-Blue);
 }
+.link {
+  transition: all 0.1s ease-in;
+}
+.link:hover {
+  color: var(--Half-Baked);
+  transform: scale(1.2);
+}
 .main h4 {
   color: var(--Navy);
 }

@@ -1,32 +1,37 @@
 .header {
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  border-inline: 1px solid var(--Half-Baked);
   width: 100%;
+  max-width: 1400px;
   position: fixed;
-  padding: 1.5rem 4rem;
+  padding: 1.5rem 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid var(--Half-Baked);
-  z-index: 5;
-  background-color: transparent;
-
+  z-index: 1;
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
 }
-.header h2 {
+
+.nav h2 {
   font-size: 2.5rem;
   letter-spacing: -3px;
   line-height: 0.4;
   color: var(--Navy);
 }
-.header > h2 > span:first-child {
+.nav > h2 > span:first-child {
   font-size: 35px;
 }
-.header > h2 > span:last-child {
+.nav > h2 > span:last-child {
   font-weight: bolder;
   letter-spacing: 1px;
   color: var(--Dusk-Blue);
 }
-.header > button {
+.nav > button {
   border: none;
   width: 120px;
   height: 40px;
@@ -37,8 +42,8 @@
   cursor: pointer;
   transition: transform 0.3s ease;
 }
-.header > button:hover,
-.header > button:active {
+.nav > button:hover,
+.nav > button:active {
   transform: scale(0.9);
 }
 .socialMediaLink {
@@ -51,20 +56,25 @@
   display: flex;
   gap: 0.3rem;
   align-items: center;
+  transition: all 0.2s ease;
+}
+.link:hover {
+  font-weight: 700;
+  color: var(--Half-Baked);
 }
 @media screen and (max-width: 992px) {
-  .header {
+  .nav {
     padding: 2rem 3rem;
   }
 }
 @media screen and (max-width: 768px) {
-  .header {
+  .nav {
     padding: 2rem;
   }
-  .header > h2 > span:first-child {
+  .nav > h2 > span:first-child {
     font-size: 27px;
   }
-  .header h2 {
+  .nav h2 {
     font-size: 1.8rem;
   }
   .link {
@@ -73,7 +83,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .header {
+  .nav {
     padding: 1.5rem;
   }
   .socialMediaLink {

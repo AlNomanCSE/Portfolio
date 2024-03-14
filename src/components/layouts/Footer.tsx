@@ -20,13 +20,19 @@ const Footer = () => {
           </h2>
         </header>
         <div className={styles.socialMediaLink}>
-          <Link href="https://www.linkedin.com/in/abdullah-al-noman-4989222b3/">
+          <Link
+            href="https://www.linkedin.com/in/abdullah-al-noman-4989222b3/"
+            className={styles.link}
+          >
             <FaLinkedin />
           </Link>
-          <Link href="https://github.com/AlNomanCSE">
+          <Link href="https://github.com/AlNomanCSE" className={styles.link}>
             <FaGithub />
           </Link>
-          <Link href="https://api.whatsapp.com/send?phone=8801883217001">
+          <Link
+            href="https://api.whatsapp.com/send?phone=8801883217001"
+            className={styles.link}
+          >
             <FaWhatsapp />
           </Link>
         </div>
