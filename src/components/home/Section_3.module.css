@@ -13,9 +13,8 @@
 }
 .cardsDiv {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* grid-template-rows: repeat(4, 1fr); */
-  gap: 5rem 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+  gap: 5rem;
   justify-items: center;
 }
 
@@ -28,15 +27,14 @@
 .imageAndText {
   display: flex;
   gap: 0.4rem;
+  justify-content: space-between;
 }
 .image {
-  width: 70%;
   height: 200px;
   left: 0;
   top: -100px;
   object-fit: cover;
   object-position: left;
-  margin-left: 2rem;
 }
 .texts {
   display: flex;
@@ -164,9 +162,48 @@
 @media screen and (min-width: 1000px) {
   .cardsDiv {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10rem;
   }
 }
+@media screen and (max-width: 1400px) {
+  .cardsDiv {
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 1278px) {
+  .cardsDiv {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .section3 h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1172px) {
+  .cardsDiv {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 778px) {
+  .imageAndText {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+   .texts h3 {
+    color: var(--Iceberg);
+  }
+  .texts {
+    left: 135px;
+    align-items: center;
+  }
+  .texts p {
+    color: var(--Iceberg);
+  }
+}
+/*
 @media screen and (max-width: 1278px) {
   .cardsDiv {
     gap: 2rem;
@@ -184,17 +221,12 @@
 
 @media screen and (max-width: 600px) {
   .section3 {
-    padding: 0rem;
-    border: 1px solid red;
+    padding: 3rem;
   }
-  .cardsDiv {
-    gap: 5rem 1rem;
-    border: 1px solid red;
+  .section3 h2 {
+    margin-bottom: 2rem;
   }
-  .colordiv {
-    max-width: 300px;
-    justify-content: center;
-  }
+
   .texts h3 {
     color: var(--Iceberg);
   }
@@ -206,11 +238,13 @@
     color: var(--Iceberg);
   }
   .imageAndText {
+    width: 100%;
+    height: 100%;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .image {
     width: 100%;
-    object-fit: contain;
   }
-}
+} */
