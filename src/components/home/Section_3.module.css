@@ -63,6 +63,7 @@
   color: var(--Iceberg);
   border-radius: 25px;
   font-weight: 700;
+  cursor: pointer;
 }
 .circle {
   color: var(--Dusk-Blue);
@@ -177,6 +178,9 @@
 
   .texts {
     left: 135px;
+  }
+  .texts p{
+    color: var(--Iceberg);
   }
   .imageAndText {
     flex-direction: column;
