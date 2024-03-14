@@ -1,6 +1,7 @@
 .section3 {
   padding: 5rem 2rem;
   width: 100%;
+  overflow: hidden;
 }
 .section3 h1 {
   font-size: 4rem;
@@ -55,10 +56,12 @@
   gap: 0.5rem;
   line-height: 1.5;
 }
-
-.texts button {
-  padding: 0.5rem 1rem;
+.link button {
+  background: transparent;
   border: none;
+}
+.link button p {
+  padding: 0.5rem 1rem;
   background-color: var(--Navy);
   color: var(--Iceberg);
   border-radius: 25px;

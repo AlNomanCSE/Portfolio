@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Section_3.module.css";
 import { CiMobile1 } from "react-icons/ci";
 import { CgWebsite } from "react-icons/cg";
+import { FaArrowRightToBracket } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
 type Props = {};
@@ -34,8 +35,15 @@ const Section_3 = (props: Props) => {
                 <CiMobile1 className={styles.circle} />
                 Mobile responsiveness
               </p>
-              <Link href="https://pricingpagedemo.netlify.app/">
-                <button>Demo website</button>
+              <Link
+                href="https://pricingpagedemo.netlify.app/"
+                className={styles.link}
+              >
+                <button>
+                  <p>
+                    Demo website <FaArrowRightToBracket />
+                  </p>
+                </button>
               </Link>
             </div>
           </div>
@@ -60,8 +68,15 @@ const Section_3 = (props: Props) => {
                 <CiMobile1 className={styles.circle} />
                 Mobile responsiveness
               </p>
-              <Link href="https://designstudioofnoman.netlify.app/">
-                <button>Demo website</button>
+              <Link
+                href="https://designstudioofnoman.netlify.app/"
+                className={styles.link}
+              >
+                <button>
+                  <p>
+                    Demo website <FaArrowRightToBracket />
+                  </p>
+                </button>
               </Link>
             </div>
           </div>
@@ -87,8 +102,15 @@ const Section_3 = (props: Props) => {
                 <CiMobile1 className={styles.circle} />
                 Mobile responsiveness
               </p>
-              <Link href="https://tourpagehomenoman.netlify.app/">
-                <button>Demo website</button>
+              <Link
+                href="https://tourpagehomenoman.netlify.app/"
+                className={styles.link}
+              >
+                <button>
+                  <p>
+                    Demo website <FaArrowRightToBracket />
+                  </p>
+                </button>
               </Link>
             </div>
           </div>
@@ -113,8 +135,15 @@ const Section_3 = (props: Props) => {
                 <CiMobile1 className={styles.circle} />
                 Mobile responsiveness
               </p>
-              <Link href="https://multistepappnoman.netlify.app">
-                <button>Demo website</button>
+              <Link
+                href="https://multistepappnoman.netlify.app"
+                className={styles.link}
+              >
+                <button>
+                  <p>
+                    Demo website <FaArrowRightToBracket />
+                  </p>
+                </button>
               </Link>
             </div>
           </div>
@@ -139,8 +168,15 @@ const Section_3 = (props: Props) => {
                 <CiMobile1 className={styles.circle} />
                 Mobile responsiveness
               </p>
-              <Link href="https://sitelandingpagenoman.netlify.app">
-                <button>Demo website</button>
+              <Link
+                href="https://sitelandingpagenoman.netlify.app"
+                className={styles.link}
+              >
+                <button>
+                  <p>
+                    Demo website <FaArrowRightToBracket />
+                  </p>
+                </button>
               </Link>
             </div>
           </div>
@@ -165,8 +201,15 @@ const Section_3 = (props: Props) => {
                 <CiMobile1 className={styles.circle} />
                 Mobile responsiveness
               </p>
-              <Link href="https://tipcalculatorappnextjs.netlify.app">
-                <button>Demo website</button>
+              <Link
+                href="https://tipcalculatorappnextjs.netlify.app"
+                className={styles.link}
+              >
+                <button>
+                  <p>
+                    Demo website <FaArrowRightToBracket />
+                  </p>
+                </button>
               </Link>
             </div>
           </div>
@@ -191,8 +234,15 @@ const Section_3 = (props: Props) => {
                 <CiMobile1 className={styles.circle} />
                 Mobile responsiveness
               </p>
-              <Link href="https://newshomepagemainnoman.netlify.app">
-                <button>Demo website</button>
+              <Link
+                href="https://newshomepagemainnoman.netlify.app"
+                className={styles.link}
+              >
+                <button>
+                  <p>
+                    Demo website <FaArrowRightToBracket />
+                  </p>
+                </button>
               </Link>
             </div>
           </div>
@@ -217,8 +267,15 @@ const Section_3 = (props: Props) => {
                 <CiMobile1 className={styles.circle} />
                 Mobile responsiveness
               </p>
-              <Link href="https://introsectionwithdropdownnvigation.netlify.app">
-                <button>Demo website</button>
+              <Link
+                href="https://introsectionwithdropdownnvigation.netlify.app"
+                className={styles.link}
+              >
+                <button>
+                  <p>
+                    Demo website <FaArrowRightToBracket />
+                  </p>
+                </button>
               </Link>
             </div>
           </div>
