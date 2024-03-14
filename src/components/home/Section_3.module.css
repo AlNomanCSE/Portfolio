@@ -173,16 +173,19 @@
 @media screen and (max-width: 1278px) {
   .cardsDiv {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 3rem;
   }
   .section3 h2 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 }
 @media screen and (max-width: 1172px) {
   .cardsDiv {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+   .section3 h2 {
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 778px) {
@@ -207,6 +210,9 @@
   }
   .texts p {
     color: var(--Iceberg);
+  }
+    .section3 h2 {
+    font-size: 2.5rem;
   }
 }
 /*
