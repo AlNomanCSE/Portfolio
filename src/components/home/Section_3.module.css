@@ -60,7 +60,7 @@
   width: 150px;
 }
 .link > button > p {
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1rem;
   background-color: var(--Navy);
   color: var(--Iceberg);
   border-radius: 25px;
@@ -70,6 +70,11 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  transition:all .2s ease-in-out ;
+}
+.link > button > p:hover {
+  background-color: var(--Iceberg);
+  color: var(--Navy);
 }
 .circle {
   color: var(--Dusk-Blue);
@@ -184,7 +189,7 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-   .section3 h2 {
+  .section3 h2 {
     font-size: 3rem;
   }
 }
@@ -211,52 +216,7 @@
   .texts p {
     color: var(--Iceberg);
   }
-    .section3 h2 {
+  .section3 h2 {
     font-size: 2.5rem;
   }
 }
-/*
-@media screen and (max-width: 1278px) {
-  .cardsDiv {
-    gap: 2rem;
-  }
-}
-@media screen and (max-width: 1072px) {
-  .cardsDiv {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  .section3 h2 {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .section3 {
-    padding: 3rem;
-  }
-  .section3 h2 {
-    margin-bottom: 2rem;
-  }
-
-  .texts h3 {
-    color: var(--Iceberg);
-  }
-  .texts {
-    left: 135px;
-    align-items: center;
-  }
-  .texts p {
-    color: var(--Iceberg);
-  }
-  .imageAndText {
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .image {
-    width: 100%;
-  }
-} */

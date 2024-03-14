@@ -35,6 +35,11 @@
   border-radius: 20px;
   font-weight: 900;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.header > button:hover,
+.header > button:active {
+  transform: scale(0.9);
 }
 .socialMediaLink {
   color: var(--Dusk-Blue);
@@ -77,7 +82,7 @@
   .link {
     gap: 0.1rem;
   }
-  .socialMediaLink{
+  .socialMediaLink {
     display: none;
   }
 }

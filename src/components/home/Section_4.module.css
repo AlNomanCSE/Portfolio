@@ -23,6 +23,11 @@
   border-radius: 10px;
   font-weight: 900;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.section_4 button:hover,
+.header > button:active {
+  transform: scale(0.9);
 }
 @media screen and (max-width: 1000px) {
   .section_4 {
@@ -32,20 +37,19 @@
     text-align: center;
     gap: 1rem;
   }
-  .section_4 h2{
+  .section_4 h2 {
     line-height: 1;
   }
-  .section_4 p{
-    margin: .5rem;
+  .section_4 p {
+    margin: 0.5rem;
   }
-
 }
 @media screen and (max-width: 600px) {
-     .section_4 h2{
-        font-size: 2rem;
-     }
+  .section_4 h2 {
+    font-size: 2rem;
+  }
 
-     .section_4 p{
-        font-size: 1rem;
-     }
+  .section_4 p {
+    font-size: 1rem;
+  }
 }
