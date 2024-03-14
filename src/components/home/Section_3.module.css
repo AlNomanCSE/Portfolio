@@ -59,6 +59,9 @@
 .link button {
   background: transparent;
   border: none;
+  width: 150px;
+  display: flex;
+  align-items: center;
 }
 .link button p {
   padding: 0.5rem 1rem;
