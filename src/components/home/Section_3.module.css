@@ -21,7 +21,7 @@
 
 .colordiv {
   position: relative;
-  width: 500px;
+  max-width: 500px;
   display: flex;
   align-items: center;
 }
@@ -183,10 +183,16 @@
 }
 
 @media screen and (max-width: 600px) {
+  .section3 {
+    padding: 0rem;
+    border: 1px solid red;
+  }
   .cardsDiv {
     gap: 5rem 1rem;
+    border: 1px solid red;
   }
   .colordiv {
+    max-width: 300px;
     justify-content: center;
   }
   .texts h3 {
