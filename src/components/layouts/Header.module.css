@@ -77,6 +77,9 @@
   .link {
     gap: 0.1rem;
   }
+  .socialMediaLink{
+    display: none;
+  }
 }
 @media screen and (max-width: 500px) {
   .socialMediaLink {
