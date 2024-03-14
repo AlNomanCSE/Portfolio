@@ -11,9 +11,9 @@
   margin-bottom: 7rem;
 }
 .cardsDiv {
-  /* background-color: black; */
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(368px, 1fr));
+  /* grid-template-rows: repeat(4, 1fr); */
   gap: 15rem 1rem;
   justify-items: center;
 }
@@ -24,96 +24,138 @@
   display: flex;
   align-items: center;
 }
-
-.colordivs_1 {
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(#00ac4b 70%, #fff);
-  filter: blur(100px);
-}
-.colordivs_2 {
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(#1a1717 70%, #fff);
-  filter: blur(100px);
-}
-.colordivs_3 {
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(#00af8c 70%, #fff);
-  filter: blur(100px);
-}
-.colordivs_4 {
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(#3b3ef6 70%, #fff);
-  filter: blur(100px);
-}
-.colordivs_5 {
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(#1c7be1 70%, #fff);
-  filter: blur(100px);
-}
-.colordivs_6 {
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(#055155 70%, #fff);
-  filter: blur(100px);
-}
-.colordivs_7 {
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(#e94b3c 70%, #fff);
-  filter: blur(100px);
-}
-.colordivs_8 {
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(#dcac1d 70%, #fff);
-  filter: blur(100px);
+.imageAndText {
+  display: flex;
+  gap: 0.4rem;
 }
 .image {
-  position: absolute;
   width: 70%;
-  height: 300px;
+  height: 200px;
   left: 0;
   top: -100px;
-  object-fit: contain;
-  /* box-shadow: 5px 5px 20px white; */
-  /* border: 1px dotted var(--Half-Baked); */
-  border-radius: 5px;
+  object-fit: cover;
+  object-position: left;
+  margin-left: 2rem;
 }
-
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
 .texts h2 {
-  font-size: 1rem;
-  color: var(--Dusk-Blue);
+  color: var(--Navy);
+  font-size: 0.9rem;
 }
 .texts p {
-  color: dimgray;
-  font-size: 0.8rem;
+  color: var(--Dusk-Blue);
+  font-size: 0.7rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   line-height: 1.5;
 }
 
+.texts button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: var(--Navy);
+  color: var(--Iceberg);
+  border-radius: 25px;
+  font-weight: 700;
+}
 .circle {
+  color: var(--Dusk-Blue);
+  border: 2px dotted var(--Half-Baked);
+  height: 30px;
   width: 30px;
-  height: 25px;
-  padding: 0.2rem;
-  font-size: 1rem;
   border-radius: 50%;
-  background-color: transparent;
-  border: 1px solid dimgray;
+  padding: 0.3rem;
+}
+.colordivs_1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(#00ac4b 70%, #fff);
+  filter: blur(100px);
+  z-index: -1;
+}
+.colordivs_2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(#1a1717 70%, #fff);
+  filter: blur(100px);
+  z-index: -1;
+}
+.colordivs_3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(#00af8c 70%, #fff);
+  filter: blur(100px);
+  z-index: -1;
+}
+.colordivs_4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(#3b3ef6 70%, #fff);
+  filter: blur(100px);
+  z-index: -1;
+}
+.colordivs_5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(#1c7be1 70%, #fff);
+  filter: blur(100px);
+  z-index: -1;
+}
+.colordivs_6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(#055155 70%, #fff);
+  filter: blur(100px);
+  z-index: -1;
+}
+.colordivs_7 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(#e94b3c 70%, #fff);
+  filter: blur(100px);
+  z-index: -1;
+}
+.colordivs_8 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(#dcac1d 70%, #fff);
+  filter: blur(100px);
+  z-index: -1;
 }
 
-@media screen and (max-width: 1200px) {
-  .section3 h1 {
-    font-size: 1.5rem;
-  }
+@media screen and (min-width: 1200px) {
   .cardsDiv {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10rem;
   }
 }
@@ -121,40 +163,10 @@
   .section3 h1 {
     font-size: 1.5rem;
   }
-  .cardsDiv {
-    margin: 0 auto;
-    grid-template-columns: 1fr;
-    gap: 25rem;
-  }
-  .colordiv {
-    width: 500px;
-    align-items: center;
-  }
-  .image {
-    width: 368px;
-    box-shadow: 10px 10px 10px darkgray;
-  }
-
-  .texts {
-    position: absolute;
-    left: 165px;
-    bottom: -260px;
-    background-color: #fff;
-    padding: 0.5rem;
-  }
-  .circle {
-    height: 30px;
-  }
 }
 
 @media screen and (max-width: 600px) {
-
-  .image {
-    width: 320px;
-    box-shadow: 10px 10px 10px darkgray;
+  .texts {
+    left: 135px;
   }
-.texts{
-  left: 135px;
-}
-
 }
