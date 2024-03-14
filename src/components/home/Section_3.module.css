@@ -3,7 +3,7 @@
   width: 100%;
   overflow: hidden;
 }
-.section3 h1 {
+.section3 h2 {
   font-size: 4rem;
   color: var(--Navy);
   text-align: center;
@@ -44,13 +44,12 @@
   gap: 0.5rem;
   justify-content: flex-end;
 }
-.texts h2 {
+.texts > h3 {
   color: var(--Navy);
-  font-size: 0.9rem;
 }
-.texts p {
+.texts > p {
   color: var(--Dusk-Blue);
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -60,16 +59,18 @@
   background: transparent;
   border: none;
   width: 150px;
-  display: flex;
-  align-items: center;
 }
-.link button p {
+.link > button > p {
   padding: 0.5rem 1rem;
   background-color: var(--Navy);
   color: var(--Iceberg);
   border-radius: 25px;
   font-weight: 700;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 .circle {
   color: var(--Dusk-Blue);
@@ -166,24 +167,34 @@
     gap: 10rem;
   }
 }
-@media screen and (max-width: 768px) {
-  .section3 h1 {
-    font-size: 1.5rem;
+@media screen and (max-width: 1278px) {
+  .cardsDiv {
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 1072px) {
+  .cardsDiv {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .section3 h2 {
+    font-size: 2rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   .cardsDiv {
-    /* justify-items: center; */
     gap: 5rem 1rem;
   }
   .colordiv {
     justify-content: center;
-    /* overflow: hidden; */
   }
-
+  .texts h3 {
+    color: var(--Iceberg);
+  }
   .texts {
     left: 135px;
+    align-items: center;
   }
   .texts p {
     color: var(--Iceberg);

@@ -14,10 +14,10 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.main}>
         <header className={styles.header}>
-          <h1>
+          <h2>
             <span className={cookie.className}> A . A . </span>
             <span className={zeyada.className}>Noman</span>
-          </h1>
+          </h2>
         </header>
         <div className={styles.socialMediaLink}>
           <Link href="https://www.linkedin.com/in/abdullah-al-noman-4989222b3/">

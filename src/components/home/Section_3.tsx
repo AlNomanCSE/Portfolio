@@ -10,10 +10,10 @@ type Props = {};
 const Section_3 = (props: Props) => {
   return (
     <section className={styles.section3}>
-      <h1>
+      <h2>
         Some of my <br />
         Recent contributions
-      </h1>
+      </h2>
       <div className={styles.cardsDiv}>
         <div className={styles.colordiv}>
           <div className={styles.colordivs_1}></div>
@@ -26,7 +26,7 @@ const Section_3 = (props: Props) => {
               className={styles.image}
             />
             <div className={styles.texts}>
-              <h2> My contributions</h2>
+              <h3> My contributions</h3>
               <p>
                 <CgWebsite className={styles.circle} />
                 Frontend development
@@ -59,7 +59,7 @@ const Section_3 = (props: Props) => {
               className={styles.image}
             />
             <div className={styles.texts}>
-              <h2> My contributions</h2>
+              <h3> My contributions</h3>
               <p>
                 <CgWebsite className={styles.circle} />
                 Frontend development
@@ -93,7 +93,7 @@ const Section_3 = (props: Props) => {
               className={styles.image}
             />
             <div className={styles.texts}>
-              <h2> My contributions</h2>
+              <h3> My contributions</h3>
               <p>
                 <CgWebsite className={styles.circle} />
                 Frontend development
@@ -126,7 +126,7 @@ const Section_3 = (props: Props) => {
               className={styles.image}
             />
             <div className={styles.texts}>
-              <h2> My contributions</h2>
+              <h3> My contributions</h3>
               <p>
                 <CgWebsite className={styles.circle} />
                 Frontend development
@@ -159,7 +159,7 @@ const Section_3 = (props: Props) => {
               className={styles.image}
             />
             <div className={styles.texts}>
-              <h2> My contributions</h2>
+              <h3> My contributions</h3>
               <p>
                 <CgWebsite className={styles.circle} />
                 Frontend development
@@ -192,7 +192,7 @@ const Section_3 = (props: Props) => {
               className={styles.image}
             />
             <div className={styles.texts}>
-              <h2> My contributions</h2>
+              <h3> My contributions</h3>
               <p>
                 <CgWebsite className={styles.circle} />
                 Frontend development
@@ -225,7 +225,7 @@ const Section_3 = (props: Props) => {
               className={styles.image}
             />
             <div className={styles.texts}>
-              <h2> My contributions</h2>
+              <h3> My contributions</h3>
               <p>
                 <CgWebsite className={styles.circle} />
                 Frontend development
@@ -258,7 +258,7 @@ const Section_3 = (props: Props) => {
               className={styles.image}
             />
             <div className={styles.texts}>
-              <h2> My contributions</h2>
+              <h3> My contributions</h3>
               <p>
                 <CgWebsite className={styles.circle} />
                 Frontend development

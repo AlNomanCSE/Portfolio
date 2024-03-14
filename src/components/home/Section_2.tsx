@@ -6,7 +6,7 @@ type Props = {};
 const Section_2 = (props: Props) => {
   return (
     <section className={styles.section2}>
-      <h1>My Top Skills</h1>
+      <h2>My Top Skills</h2>
       <div className={styles.images}>
         <Image
           src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"

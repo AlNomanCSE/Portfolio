@@ -7,7 +7,7 @@
   align-items: center;
   gap: 3rem;
 }
-.section2 h1 {
+.section2 h2 {
   font-size: 4rem;
   color: var(--Navy);
 }
@@ -28,8 +28,8 @@
 }
 
 @media screen and (max-width: 768px) {
-  .section2 h1 {
-    font-size: 1.5rem;
+  .section2 h2 {
+    font-size: 2rem;
   }
   .image {
     width: 80px;

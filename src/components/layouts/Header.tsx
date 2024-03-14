@@ -7,10 +7,10 @@ const cookie = Cookie({ subsets: ["latin"], weight: ["400"] });
 const Header = (props: Props) => {
   return (
     <header className={styles.header}>
-      <h1>
+      <h2>
         <span className={cookie.className}> A . A . </span>
         <span className={zeyada.className}>Noman</span>
-      </h1>
+      </h2>
     </header>
   );
 };
