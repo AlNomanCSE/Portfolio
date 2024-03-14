@@ -27,7 +27,10 @@ const Header = (props: Props) => {
           <LuExternalLink />
         </Link>
       </div>
-      <button>Let's talk</button>
+
+      <button>
+        <Link href="mailto:abdullahalnomacse@gmail.com">Let's talk</Link>
+      </button>
     </header>
   );
 };

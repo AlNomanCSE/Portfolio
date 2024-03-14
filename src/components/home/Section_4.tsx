@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Section_4.module.css";
+import Link from "next/link";
 type Props = {};
 
 const Section_4 = (props: Props) => {
@@ -12,7 +13,9 @@ const Section_4 = (props: Props) => {
           good fit.
         </p>
       </div>
-      <button>Let's talk</button>
+      <button>
+        <Link href="mailto:abdullahalnomacse@gmail.com">Let's talk</Link>
+      </button>
     </section>
   );
 };
