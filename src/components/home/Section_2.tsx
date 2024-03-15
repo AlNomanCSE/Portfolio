@@ -32,7 +32,7 @@ const Section_2 = (props: Props) => {
         />
 
         <Image
-          src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg"
+          src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
           alt="html"
           width={100}
           height={100}
