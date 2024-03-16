@@ -70,7 +70,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  transition:all .2s ease-in-out ;
+  transition: all 0.2s ease-in-out;
 }
 .link > button > p:hover {
   background-color: var(--Iceberg);
@@ -161,6 +161,16 @@
   top: 0;
   left: 0;
   background-image: radial-gradient(#dcac1d 70%, #fff);
+  filter: blur(100px);
+  z-index: -1;
+}
+.colordivs_9 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(#ff204e 70%, #fff);
   filter: blur(100px);
   z-index: -1;
 }

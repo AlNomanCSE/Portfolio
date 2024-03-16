@@ -49,6 +49,39 @@ const Section_3 = (props: Props) => {
           </div>
         </div>
         <div className={styles.colordiv}>
+          <div className={styles.colordivs_9}></div>
+          <div className={styles.imageAndText}>
+            <Image
+              src="/9-d.JPG"
+              alt="project image"
+              width={400}
+              height={200}
+              className={styles.image}
+            />
+            <div className={styles.texts}>
+              <h3> My contributions</h3>
+              <p>
+                <CgWebsite className={styles.circle} />
+                Frontend development
+              </p>
+              <p>
+                <CiMobile1 className={styles.circle} />
+                Mobile responsiveness
+              </p>
+              <Link
+                href="https://searchyourcountryname.netlify.app/"
+                className={styles.link}
+              >
+                <button>
+                  <p>
+                    Demo website <FaArrowRightToBracket />
+                  </p>
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className={styles.colordiv}>
           <div className={styles.colordivs_2}></div>
           <div className={styles.imageAndText}>
             <Image
