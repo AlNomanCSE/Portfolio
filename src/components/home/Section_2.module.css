@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  
 }
 .section2 h2 {
   font-size: 4rem;
@@ -20,7 +19,10 @@
   box-shadow: 5px 2px 50px var(--Dusk-Blue);
   padding: 0.5rem;
   overflow: hidden;
-  /* border: 1px solid red; */
+  transition: transform 0.3s ease;
+}
+.image:hover {
+  transform: scale(1.1);
 }
 .images {
   display: grid;
@@ -28,7 +30,7 @@
   gap: 4rem;
 }
 @media screen and (max-width: 1200px) {
-   .section2 h2 {
+  .section2 h2 {
     font-size: 3rem;
   }
 }
