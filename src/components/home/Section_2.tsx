@@ -30,7 +30,7 @@ const Section_2 = (props: Props) => {
           height={100}
           className={styles.image}
         />
-        {/* <Image
+        <Image
           src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
           alt="html"
           width={100}
@@ -43,7 +43,7 @@ const Section_2 = (props: Props) => {
           width={100}
           height={100}
           className={styles.image}
-        /> */}
+        />
         <Image
           src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
           alt="html"
