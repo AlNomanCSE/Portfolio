@@ -27,11 +27,14 @@ const Section_1 = (props: Props) => {
             </h1>
           </div>
           <p>
-            <span className={cookie.className}>A</span> frontend developer with
-            a passion for creating seamless digital experiences. With expertise
-            in HTML, CSS, JavaScript, and modern frontend frameworks, I
-            specialize in translating designs into responsive and interactive
-            websites.
+            <span className={cookie.className}>As</span> a recent graduate with
+            a Bachelor of Technology in Computer Science and Engineering from
+            the{" "}
+            <a href="https://www.nitrkl.ac.in/" style={{ color: "#0f1035" }}>
+              National Institute of Technology Rourkela India (NITRKL)
+            </a>
+            , I bring a unique blend of academic excellence and professional
+            experience to the technology field.
           </p>
         </div>
       </div>
