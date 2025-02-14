@@ -12,7 +12,7 @@ const Section_3 = (props: Props) => {
     <section className={styles.section3}>
       <h2>
         Some of my <br />
-        Recent contributions
+        Practice Projects
       </h2>
       <div className={styles.cardsDiv}>
         <div className={styles.colordiv}>
